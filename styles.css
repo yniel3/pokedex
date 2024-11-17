@@ -1,0 +1,345 @@
+:root {
+    --fondo-claro: #c7a3a3;
+    --fondo-completo: #383a42;
+    --azulito: #2888c9;
+    --dark-font: #04192b;
+    --hp: #6cdf6c;
+    --defensa: #668fda;
+    --ataque: #e05757;
+
+    --tipo-normal: #A8A878;
+    --tipo-fire: #F08030;
+    --tipo-water: #6890F0;
+    --tipo-grass: #78C850;
+    --tipo-electric: #F8D030;
+    --tipo-ice: #98D8D8;
+    --tipo-fighting: #C03028;
+    --tipo-poison: #A040A0;
+    --tipo-ground: #E0C068;
+    --tipo-flying: #A890F0;
+    --tipo-psychic: #F85888;
+    --tipo-bug: #e6ff05;
+    --tipo-rock: #B8A038;
+    --tipo-ghost: #705898;
+    --tipo-dark: #705848;
+    --tipo-dragon: #6834e2;
+    --tipo-steel: #B8B8D0;
+    --tipo-fairy: #F0B6BC;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--fondo-completo);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    gap: 20px;
+
+
+    header {
+        min-width: 450px;
+        width: 100%;
+        min-height: 155px;
+        background-color: var(--fondo-claro);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-bottom: 2.5px solid var(--dark-font);
+        box-shadow: 0 5px 15px black;
+        margin-top: -20px;
+
+        img {
+            max-height: 110px;
+        }
+
+        .lupa {
+            position: relative;
+            width: max-content;
+
+            input {
+                height: 35px;
+                border-radius: 15px;
+                border: 1.5px solid var(--dark-font);
+                text-align: center;
+                padding-right: 40px;
+                font-size: 15px;
+                font-weight: 700;
+            }
+            input:focus {
+                outline: none;
+            }
+
+            button {
+                position: absolute;
+                right: 10px;
+                top: 0;
+                height: 100%;
+                cursor: pointer;
+                border: none;
+                background-color: #ffffff00;
+                font-size: 20px;
+                padding-left: 5px;
+                transition: .2s;
+            }
+            button:hover {
+                scale: 1.1;
+            }
+
+        }
+
+    }
+    
+
+    .pokemon {
+
+        min-width: 450px;
+        min-height: 650px;
+        background: linear-gradient( #ffffff2a, #d6d6d688),
+        url(pokefondo.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        border: 1.5px solid var(--dark-font);
+        overflow: hidden;
+        box-shadow: 5px 5px 15px var(--dark-font);
+        position: relative;
+
+
+
+        .direccion {
+            font-family: "Kode Mono", monospace;
+            top: 2%;
+            right: 3%;
+            padding: 8px 16px;
+            background-color: var(--fondo-completo);
+            color: var(--fondo-claro);
+            font-size: 25px;
+            position: absolute;
+            border: 1px solid var(--dark-font);
+            border-radius: 5px;
+        }
+
+
+        .imagen {
+            width: 80%;
+            min-height: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            background: radial-gradient(circle, var(--fondo-claro), var(--fondo-completo));
+            border: 1px solid black;
+
+            img {
+                min-height: 100px;
+            }
+
+        }
+
+        .nombre {
+            background-color: var(--fondo-claro);
+            border: 1px solid var(--dark-font);
+            border-radius: 5px;
+            padding: 0 15px;
+            font-family: "Kode Mono", monospace;
+            font-size: 25px;         
+            text-transform: capitalize;            
+            box-shadow: 5px 5px 15px var(--dark-font);
+        }
+
+        .tipo {
+            list-style: none;
+
+
+            ul {
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                gap: 15px;
+
+
+                li {
+                    width: 70px;
+                    height: 23px;
+                    text-align: center;
+                    font-family: "Quicksand", sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    border-radius: 5px;
+                    border: 1px solid var(--dark-font);
+                    margin-top: 20px;
+                    text-transform: capitalize;
+                    box-shadow: 2px 2px 5px var(--dark-font);
+                }
+
+
+                .normal {
+                    background-color: var(--tipo-normal);
+                    color: var(--dark-font);
+                }
+                
+                .fire {
+                    background-color: var(--tipo-fire);
+                    color: var(--dark-font);
+                }
+                
+                .water {
+                    background-color: var(--tipo-water);
+                    color: var(--dark-font);
+                }
+                
+                .grass {
+                    background-color: var(--tipo-grass);
+                    color: var(--dark-font);
+                    }
+                
+                .electric {
+                    background-color: var(--tipo-electric);
+                    color: var(--dark-font);
+                }
+                
+                .ice {
+                    background-color: var(--tipo-ice);
+                    color: var(--dark-font);
+                }
+                    
+                .fighting {
+                    background-color: var(--tipo-fighting);
+                    color: var(--dark-font);
+                }
+                    
+                .poison {
+                    background-color: var(--tipo-poison);
+                    color: var(--dark-font);
+                }
+                    
+                .ground {
+                    background-color: var(--tipo-ground);
+                    color: var(--dark-font);
+                }
+                    
+                .flying {
+                    background-color: var(--tipo-flying);
+                    color: var(--dark-font);
+                }
+                    
+                .psychic {
+                    background-color: var(--tipo-psychic);
+                    color: var(--dark-font);
+                }
+                    
+                .bug {
+                    background-color: var(--tipo-bug);
+                    color: var(--dark-font);
+                }
+                    
+                .rock {
+                    background-color: var(--tipo-rock);
+                    color: var(--dark-font);
+                }
+                    
+                .ghost {
+                    background-color: var(--tipo-ghost);
+                    color: var(--dark-font);
+                }
+                    
+                .dark {
+                    background-color: var(--tipo-dark);
+                    color: var(--dark-font);
+                }
+                    
+                .dragon {
+                    background-color: var(--tipo-dragon);
+                    color: var(--dark-font);
+                }
+                    
+                .steel {
+                    background-color: var(--tipo-steel);
+                    color: var(--dark-font);
+                }
+                    
+                .fairy {
+                    background-color: var(--tipo-fairy);
+                    color: var(--dark-font);
+                }
+
+            }
+        }
+
+        .stats {
+            margin-top: 15px;
+            display: flex;
+            gap: 30px;
+            font-family: "Quicksand", sans-serif;
+            font-weight: 700;
+
+            div {
+                color: var(--fondo-claro);
+                background-color: var(--fondo-completo);
+                padding: 0 20px;
+                border: 0.5px solid black;
+                border-radius: 5px;
+            }
+        }
+
+        .personal {
+            margin-top: 5%;
+            min-width: 90%;
+            font-family: "Quicksand", sans-serif;
+            font-size: 15px;
+            margin-left: 2%;
+            overflow: hidden;
+            
+
+            .barra { 
+                height: 35px;
+                min-width: 90px;
+                border-radius: 2px;
+                color: black;
+                font-weight: 600;
+                margin-top: 8px;
+                border: 1px solid black;
+            } 
+            
+            .hp {
+                padding-left: 3px;
+                background-color: var(--hp);
+            
+            } 
+            
+            .defensa { 
+                padding-left: 3px;
+                background-color: var(--defensa); 
+            
+            } 
+            
+            .ataque { 
+                padding-left: 3px;
+                background-color: var(--ataque); 
+            }
+        }
+    }
+
+    footer {
+        font-weight: 800;
+        font-family: "Quicksand", sans-serif;
+    }
+
+}
+
