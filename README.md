@@ -14,11 +14,19 @@
 
 Una aplicación web desarrollada en JavaScript que permite buscar pokemons por nombre o numero, utilizando una API externa.
 
+## Visitala aqui
+
+ ✌️ Enlace a ([Pokedex](https://yniel3.github.io/pokedex/))
+
+
+
 
 ## 🛠️ Tecnologías que usé
 
 - JavaScript (vanilla)
 - HTML5 y CSS3
 - API pública de PokeAPI ([PokeAPI](https://pokeapi.co/))
+
+
 
 #### Sigamos trabajando... 🙋‍♂️
