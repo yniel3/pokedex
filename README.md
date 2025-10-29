@@ -1,4 +1,4 @@
-##    Hey there, Buddy!  😎
+## Mi Pokedex  😎
 
 
 
@@ -10,36 +10,15 @@
 
 
 
-#### Something about me?
+## Mi primer proyecto con Js ❤️‍🩹
+
+Una aplicación web desarrollada en JavaScript que permite buscar pokemons por nombre o numero, utilizando una API externa.
 
 
+## 🛠️ Tecnologías que usé
 
-I am a Venezuelan and I am learning programming. I now live in Brazil, I speak Portuguese and a little English. I am very interested in technology and how some things work. I hope to work in what I like. Greetings
+- JavaScript (vanilla)
+- HTML5 y CSS3
+- API pública de PokeAPI ([PokeAPI](https://pokeapi.co/))
 
-
-#### find me!!
-[<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>](https://www.linkedin.com/in/joy-or-87b52a301/)
-[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/iJoy024)
-
-
-### The technologies that I have mastered so far!!
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-
-|                            |                        |
-
-
-
-
-#### Back to Work!! 🙋‍♂️
-
-
-
-<!--
-**Joy-024/Joy-024** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### Sigamos trabajando... 🙋‍♂️
